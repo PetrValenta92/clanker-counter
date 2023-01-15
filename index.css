@@ -1,0 +1,80 @@
+body {
+    background-image: url("clones.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    max-height: 100vh;
+}
+
+.container {
+    background-color: rgba(229, 229, 229, .35); 
+    max-width: 80%;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.title {
+    margin: 30px auto;
+    font-size: 3rem;
+}
+
+.clanker {
+    font-size: 4.5rem;
+    margin: 30px auto;
+}
+
+.btn {
+    border: none;
+    padding: 50px 50px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0);
+}
+
+.btn-kill {
+    background-color: rgb(124 18 23);
+}
+
+.btn-kill:hover {
+    background-color: rgb(182 35 41);
+}
+
+.btn-record {
+    background-color: rgb(32 80 131);
+    padding: 50px 20px;
+}
+
+.btn-record:hover {
+    background-color: rgb(41 129 202);
+}
+
+.btn-fix {
+    background-color: rgb(42 96 65);
+}
+
+.btn-fix:hover {
+    background-color: rgb(146 211 149);
+}
+
+.score {
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 4px 3px rgb(32 80 131);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.red-shadow {
+    text-shadow: 4px 3px rgb(182 35 41);
+}
+
